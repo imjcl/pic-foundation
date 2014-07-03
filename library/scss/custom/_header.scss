@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+  small {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.simple-nav {
+  ul {
+    margin-bottom: 0.65rem;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    a {
+      color: white;
+
+      &:hover {
+        color: $ucla-gold;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.stripe {
+  float: left;
+  height: 5px;
+  width: ( 100 / 9 ) * 1%;
+}
+
+.item1, .item4, .item7 {
+  background: $ucla-blue-light;
+}
+
+.item2, .item5, .item8 {
+  background: $ucla-gold;
+}
+
+.item3, .item6, .item9 {
+  background: $ucla-cyan;
+}

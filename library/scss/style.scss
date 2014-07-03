@@ -117,3 +117,12 @@ be set to display none.
 @media print {
 	@import "print";
 }
+
+/*
+CUSTOM STYLESHEET
+This is where a lot of the custom changes will go as it leaves this and the other imported sheets alone.
+*/
+@import "custom/variables";
+@import "custom/header";
+@import "custom/main";
+@import "custom/sidebars";

@@ -1,0 +1,21 @@
+.widget {
+  margin: 0;
+  padding: 0;
+}
+
+%section-headings {
+  color: $ucla-blue-text;
+  font-style: italic;
+  font-size: 1.1em;
+  border-bottom: 2px solid $ucla-blue-text;
+}
+
+.sidebar {
+  h2 {
+    @extend %section-headings;
+  }
+}
+
+.section-head {
+  @extend %section-headings;
+}

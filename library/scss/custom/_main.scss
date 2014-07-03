@@ -1,0 +1,41 @@
+body {
+  background: $ucla-blue-dark;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 { color:white; }
+
+a { color: $ucla-blue-text; }
+
+.article-header {
+  h2 {
+    font-size: 1.485em;
+    a {
+      color: white;
+      border-bottom: 1px solid $ucla-grey;
+    }
+
+    small {
+      font-style: italic;
+      color: $ucla-blue-text;
+    }
+  }
+}
+
+%a_hovers {
+  background: none;
+  color: $ucla-gold;
+  border-bottom: 1px solid $ucla-gold;
+}
+
+#content {
+  a {
+    &:hover {
+      @extend %a_hovers;
+    }
+
+    &:focus {
+      @extend %a_hovers;
+    }
+  }
+}
