@@ -9722,8 +9722,8 @@ a {
 
 /* line 21, ../scss/custom/_sidebars.scss */
 .sidebar h2, .section-head {
-  color: #347bad;
+  color: #666666;
   font-style: italic;
   font-size: 1.1em;
-  border-bottom: 2px solid #347bad;
+  border-bottom: 2px solid #666666;
 }
