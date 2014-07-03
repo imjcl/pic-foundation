@@ -9643,7 +9643,7 @@ This is where a lot of the custom changes will go as it leaves this and the othe
 
 /* line 1, ../scss/custom/_main.scss */
 body {
-  background: #1e4b87;
+  background: #3284bf;
   color: white;
 }
 
@@ -9657,22 +9657,36 @@ a {
   color: #347bad;
 }
 
-/* line 11, ../scss/custom/_main.scss */
+/* line 10, ../scss/custom/_main.scss */
+#container {
+  width: 1100px;
+  margin: 0 auto;
+  background: #1e4b87;
+  border-left: 1px solid #666666;
+  border-right: 1px solid #666666;
+}
+
+/* line 18, ../scss/custom/_main.scss */
+.row {
+  max-width: auto;
+}
+
+/* line 23, ../scss/custom/_main.scss */
 .article-header h2 {
   font-size: 1.485em;
 }
-/* line 13, ../scss/custom/_main.scss */
+/* line 25, ../scss/custom/_main.scss */
 .article-header h2 a {
   color: white;
   border-bottom: 1px solid #347bad;
 }
-/* line 18, ../scss/custom/_main.scss */
+/* line 30, ../scss/custom/_main.scss */
 .article-header h2 small {
   font-style: italic;
   color: #347bad;
 }
 
-/* line 25, ../scss/custom/_main.scss */
+/* line 37, ../scss/custom/_main.scss */
 #content a:hover, #content a:focus {
   background: none;
   color: #ffe800;
