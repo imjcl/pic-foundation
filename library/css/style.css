@@ -9668,7 +9668,7 @@ a {
 
 /* line 18, ../scss/custom/_main.scss */
 .row {
-  max-width: auto;
+  max-width: 100%;
 }
 
 /* line 23, ../scss/custom/_main.scss */
@@ -9699,26 +9699,23 @@ a {
   padding: 0;
 }
 
-/* line 6, ../scss/custom/_sidebars.scss */
-.widget_nav_menu {
-  font-size: 0.9em;
-}
-/* line 9, ../scss/custom/_sidebars.scss */
+/* line 7, ../scss/custom/_sidebars.scss */
 .widget_nav_menu li {
   margin-bottom: 0.25em;
+  font-size: 0.9em;
 }
-/* line 11, ../scss/custom/_sidebars.scss */
+/* line 10, ../scss/custom/_sidebars.scss */
 .widget_nav_menu li a {
   color: white;
   border-bottom: 1px solid #347bad;
 }
 
-/* line 18, ../scss/custom/_sidebars.scss */
+/* line 17, ../scss/custom/_sidebars.scss */
 .textwidget p {
   font-size: 0.9em;
 }
 
-/* line 22, ../scss/custom/_sidebars.scss */
+/* line 21, ../scss/custom/_sidebars.scss */
 .sidebar h2, .section-head {
   color: #347bad;
   font-style: italic;
