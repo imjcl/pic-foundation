@@ -9648,7 +9648,7 @@ This is where a lot of the custom changes will go as it leaves this and the othe
 
 /* line 1, ../scss/custom/_main.scss */
 body {
-  background: #3284bf;
+  background: #3284bf url("images/molecule-bg.png");
   color: white;
 }
 
