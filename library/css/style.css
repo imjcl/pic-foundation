@@ -9698,6 +9698,11 @@ a {
   border-bottom: 1px solid #ffe800;
 }
 
+/* line 55, ../scss/custom/_main.scss */
+.gc-cs-link {
+  color: white;
+}
+
 /* line 1, ../scss/custom/_sidebars.scss */
 .widget {
   margin: 0;
