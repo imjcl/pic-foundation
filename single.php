@@ -3,7 +3,7 @@
 			<div id="content">
 
 				<div id="inner-content" class="row clearfix">
-					<div class="large-3 medium-3 colummns">
+					<div class="large-3 medium-3 columns">
 						<?php get_sidebar('left'); ?>
 					</div>
 
