@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.widget_text p {
+.textwidget p {
   font-size: 0.9em;
 }
 
@@ -15,7 +15,6 @@
 }
 
 .sidebar {
-  font-size: 0.9em;
   h2 {
     @extend %section-headings;
   }
