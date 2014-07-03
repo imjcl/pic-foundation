@@ -3,12 +3,13 @@
 			<div id="content">
 			
 				<div id="inner-content" class="row clearfix">
+					<div class="large-3 medium-3 columns clearfix">
+						<?php get_sidebar('left'); ?>
+					</div>
+						
+				    <div id="main" class="large-9 medium-9 columns clearfix" role="main">
 
-					<?php get_sidebar('left'); ?>
-			
-				    <div id="main" class="large-6 medium-6 columns clearfix" role="main">
-
-				    	<h2 class="section-head">Latest Information</h2>
+				    	<h2 class="section-head">PIC Lab Policies</h2>
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					    	<?php get_template_part( 'partials/loop', 'simple' ); ?>
@@ -34,8 +35,6 @@
 					    <?php endif; ?>
 			
 				    </div> <!-- end #main -->
-    
-				    <?php get_sidebar('right'); ?>
 				    
 				</div> <!-- end #inner-content -->
     
