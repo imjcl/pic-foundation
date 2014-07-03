@@ -1,3 +1,7 @@
+The original JointsWP theme was built and modified for the use by the UCLA Mathematics Department's Program in Computing. The original readme can be seen below.
+
+Was mainly used for rapid deployment of theming for nearly static site.
+
 Find out more here: www.jointswp.com  
 Demo: www.jointswp.com/demo
 
