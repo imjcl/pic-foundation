@@ -24,6 +24,11 @@
         color: $ucla-gold;
         text-decoration: underline;
       }
+      
+      .external {
+        padding-right: 18px;
+        background: transparent url('library/images/external.gif') no-repeat center right;
+      }
     }
   }
 }
