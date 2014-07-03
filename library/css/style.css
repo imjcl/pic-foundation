@@ -9669,34 +9669,29 @@ a {
   border-right: 1px solid #666666;
 }
 
-/* line 18, ../scss/custom/_main.scss */
-.row {
-  max-width: 100%;
-}
-
-/* line 23, ../scss/custom/_main.scss */
+/* line 22, ../scss/custom/_main.scss */
 .article-header h2 {
   font-size: 1.485em;
 }
-/* line 25, ../scss/custom/_main.scss */
+/* line 24, ../scss/custom/_main.scss */
 .article-header h2 a {
   color: white;
   border-bottom: 1px solid #347bad;
 }
-/* line 30, ../scss/custom/_main.scss */
+/* line 29, ../scss/custom/_main.scss */
 .article-header h2 small {
   font-style: italic;
   color: cyan;
 }
 
-/* line 37, ../scss/custom/_main.scss */
+/* line 36, ../scss/custom/_main.scss */
 #content a:hover, #content a:focus {
   background: none;
   color: #ffe800;
   border-bottom: 1px solid #ffe800;
 }
 
-/* line 55, ../scss/custom/_main.scss */
+/* line 54, ../scss/custom/_main.scss */
 span.gc-cs-link {
   color: white;
 }
