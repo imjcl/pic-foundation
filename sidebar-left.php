@@ -1,10 +1,10 @@
-<div id="sidebar1" class="sidebar" role="complementary">
+<div id="sidebar2" class="sidebar" role="complementary">
 
-  <h2>About</h2>
+  <h2>PIC Lab</h2>
 
-  <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
+  <?php if ( is_active_sidebar( 'sidebar2' ) ) : ?>
 
-    <?php dynamic_sidebar( 'sidebar1' ); ?>
+    <?php dynamic_sidebar( 'sidebar2' ); ?>
 
   <?php else : ?>
 
@@ -18,13 +18,13 @@
 
 </div>
 
-<div id="sidebar2" class="sidebar" role="complementary">
+<div id="sidebar1" class="sidebar" role="complementary">
 
-  <h2>PIC Lab</h2>
+  <h2>About PIC</h2>
 
-  <?php if ( is_active_sidebar( 'sidebar2' ) ) : ?>
+  <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 
-    <?php dynamic_sidebar( 'sidebar2' ); ?>
+    <?php dynamic_sidebar( 'sidebar1' ); ?>
 
   <?php else : ?>
 
