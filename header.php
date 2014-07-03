@@ -45,22 +45,25 @@
 				<header class="header" role="banner">
 
 					<div id="inner-header" class="row">
-						<div class="large-12 columns">
+						<div class="large-12 large-centered columns">
 							<h1>
 								<a href="<?php echo home_url(); ?>" rel="nofollow">
-									<?php bloginfo('name'); ?>
+									<?php //bloginfo('name'); ?>
+									<img src="<?php echo get_template_directory_uri(); ?>/logo.png" />
 								</a>
+								<br>
 								<small>
 									<?php  bloginfo('description'); ?>
 								</small>
 							</h1>
 						</div>
 
-						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
+						 <?php //get_template_part( 'partials/nav', 'offcanvas' ); ?>
 
 						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
 
 						 <?php // get_template_part( 'partials/nav', 'offcanvas-sidebar' ); ?>
+						 <?php get_template_part( 'partials/nav', 'simple' ); ?>
 
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->

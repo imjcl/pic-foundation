@@ -3,12 +3,13 @@
 			<div id="content">
 
 				<div id="inner-content" class="row clearfix">
-			
-					<div id="main" class="large-8 medium-8 columns first clearfix" role="main">
+					<?php get_sidebar('left'); ?>
+
+					<div id="main" class="large-6 medium-6 columns first clearfix" role="main">
 					
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
-					    	<?php get_template_part( 'partials/loop', 'single' ); ?>
+					    	<?php get_template_part( 'partials/loop', 'page' ); ?>
 					    					
 					    <?php endwhile; else : ?>
 					
@@ -18,7 +19,7 @@
 			
 					</div> <!-- end #main -->
     
-					<?php get_sidebar(); ?>
+					<?php get_sidebar('right'); ?>
 
 				</div> <!-- end #inner-content -->
     
