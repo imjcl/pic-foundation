@@ -9686,6 +9686,11 @@ a {
 }
 
 /* line 6, ../scss/custom/_sidebars.scss */
+.widget_text {
+  font-size: 0.9em;
+}
+
+/* line 10, ../scss/custom/_sidebars.scss */
 .sidebar h2, .section-head {
   color: #347bad;
   font-style: italic;
@@ -9693,7 +9698,7 @@ a {
   border-bottom: 2px solid #347bad;
 }
 
-/* line 13, ../scss/custom/_sidebars.scss */
+/* line 17, ../scss/custom/_sidebars.scss */
 .sidebar {
   font-size: 0.9em;
 }
