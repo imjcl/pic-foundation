@@ -9688,7 +9688,7 @@ a {
 /* line 30, ../scss/custom/_main.scss */
 .article-header h2 small {
   font-style: italic;
-  color: #347bad;
+  color: cyan;
 }
 
 /* line 37, ../scss/custom/_main.scss */
@@ -9722,8 +9722,8 @@ a {
 
 /* line 21, ../scss/custom/_sidebars.scss */
 .sidebar h2, .section-head {
-  color: #666666;
+  color: cyan;
   font-style: italic;
   font-size: 1.1em;
-  border-bottom: 2px solid #666666;
+  border-bottom: 2px solid cyan;
 }
