@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.widget_nav_menu {
+  font-size: 0.9em;
+
+  li {
+    margin-bottom: 0.25em;
+    a {
+      color: white;
+      border-bottom: 1px solid $ucla-blue-text;
+    }
+  }
+}
+
 .textwidget p {
   font-size: 0.9em;
 }

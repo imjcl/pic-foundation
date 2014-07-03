@@ -9700,11 +9700,25 @@ a {
 }
 
 /* line 6, ../scss/custom/_sidebars.scss */
+.widget_nav_menu {
+  font-size: 0.9em;
+}
+/* line 9, ../scss/custom/_sidebars.scss */
+.widget_nav_menu li {
+  margin-bottom: 0.25em;
+}
+/* line 11, ../scss/custom/_sidebars.scss */
+.widget_nav_menu li a {
+  color: white;
+  border-bottom: 1px solid #347bad;
+}
+
+/* line 18, ../scss/custom/_sidebars.scss */
 .textwidget p {
   font-size: 0.9em;
 }
 
-/* line 10, ../scss/custom/_sidebars.scss */
+/* line 22, ../scss/custom/_sidebars.scss */
 .sidebar h2, .section-head {
   color: #347bad;
   font-style: italic;
