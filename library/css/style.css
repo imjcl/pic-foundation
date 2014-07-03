@@ -9604,24 +9604,24 @@ This is where a lot of the custom changes will go as it leaves this and the othe
   margin-bottom: 0.65rem;
 }
 /* line 15, ../scss/custom/_header.scss */
+.simple-nav .external {
+  padding-right: 18px;
+  background: transparent url("library/images/external.gif") no-repeat center right;
+}
+/* line 20, ../scss/custom/_header.scss */
 .simple-nav li {
   display: inline-block;
   margin-left: 1em;
   margin-right: 1em;
 }
-/* line 20, ../scss/custom/_header.scss */
+/* line 25, ../scss/custom/_header.scss */
 .simple-nav li a {
   color: white;
 }
-/* line 23, ../scss/custom/_header.scss */
+/* line 28, ../scss/custom/_header.scss */
 .simple-nav li a:hover {
   color: #ffe800;
   text-decoration: underline;
-}
-/* line 28, ../scss/custom/_header.scss */
-.simple-nav li a .external {
-  padding-right: 18px;
-  background: transparent url("library/images/external.gif") no-repeat center right;
 }
 
 /* line 36, ../scss/custom/_header.scss */
