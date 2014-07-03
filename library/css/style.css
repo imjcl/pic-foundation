@@ -9692,3 +9692,8 @@ a {
   font-size: 1.1em;
   border-bottom: 2px solid #347bad;
 }
+
+/* line 13, ../scss/custom/_sidebars.scss */
+.sidebar {
+  font-size: 0.9em;
+}
