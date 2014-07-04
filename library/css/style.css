@@ -9216,17 +9216,21 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 613, ../scss/_small.scss */
+/* line 612, ../scss/_small.scss */
+.widget {
+  text-align: center;
+}
+/* line 614, ../scss/_small.scss */
 .widget ul {
   margin: 0;
 }
-/* line 616, ../scss/_small.scss */
+/* line 617, ../scss/_small.scss */
 .widget ul li {
   list-style: none;
   /* deep nesting */
 }
 
-/* line 635, ../scss/_small.scss */
+/* line 636, ../scss/_small.scss */
 #sidebar-offcanvas .widgettitle {
   color: #fff;
 }
@@ -9234,7 +9238,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 643, ../scss/_small.scss */
+/* line 644, ../scss/_small.scss */
 .footer {
   clear: both;
   margin-top: 1em;
@@ -9253,7 +9257,7 @@ view.
 /*********************
 FOUNDATION STYLES
 *********************/
-/* line 673, ../scss/_small.scss */
+/* line 674, ../scss/_small.scss */
 .clearing-assembled.clearing-blackout a:hover {
   background: none;
 }
@@ -9261,7 +9265,7 @@ FOUNDATION STYLES
 /*********************
 PLUGIN STYLES
 *********************/
-/* line 681, ../scss/_small.scss */
+/* line 682, ../scss/_small.scss */
 .gform_body ul {
   list-style: none outside none;
   margin: 0;
@@ -9317,6 +9321,7 @@ MEDIUM
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
+    text-align: left;
   }
 
   /*********************
