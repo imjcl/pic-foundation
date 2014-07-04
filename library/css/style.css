@@ -9610,8 +9610,8 @@ This is where a lot of the custom changes will go as it leaves this and the othe
 }
 /* line 15, ../scss/custom/_header.scss */
 .simple-nav .external {
-  padding-right: 18px;
-  background: transparent url("images/external.gif") no-repeat center right;
+  padding-right: 24px;
+  background: transparent url("images/external.png") no-repeat center right;
 }
 /* line 20, ../scss/custom/_header.scss */
 .simple-nav li {
