@@ -9,7 +9,7 @@
 		    				</div>
 			               
 			                <div class="large-12 medium-12 columns">		
-								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
+								<p class="right clearfix source-org copyright">&copy; <?php echo date('Y'); ?> UC Regents</p>
 							</div>		
 						</div> <!-- end #inner-footer -->			
 					</footer> <!-- end .footer -->
