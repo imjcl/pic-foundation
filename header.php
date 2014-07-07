@@ -8,7 +8,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title><?php wp_title(''); ?></title>
+		<title><?php echo bloginfo('name'); ?>
+			<?php wp_title(' | ', TRUE, 'LEFT') ?>
+		</title>
 
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,7 +22,7 @@
 
 		<!-- icons & favicons -->
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">
-		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
